@@ -9,4 +9,20 @@ Create an object named "p3" whose name is "Jasur"
 
 */
 
-void main() {}
+class Person {
+  String name = 'G`ayrat';
+  
+  Person (String name){
+   this.name=name;
+  }
+}
+
+void main() {
+  Person p1 = Person('Ali');
+  Person p2 = Person('Shavkat');
+  Person p3 = Person('Jasur');
+  print(p1.name);
+  print(p2.name);
+  print(p3.name);
+}
+
