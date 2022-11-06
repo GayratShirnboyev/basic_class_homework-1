@@ -18,7 +18,7 @@ class Person {
 
 void main() {
   Person x = Person(
-    name: 'G`ayrat',
+    name: 'Ali',
     age: 15,
   );
 
