@@ -6,4 +6,18 @@ Create an attribute "name" in the "Person" class.
 create an object named "p1" whose name is "Anvar" 
 create an object named "p2" whose name is "Shavkat"
 */
-void main() {}
+class Person {
+  String name = 'G`ayrat';
+  
+  Person (String name){
+   this.name=name;
+  }
+}
+
+void main() {
+  Person p1 = Person('Ali');
+  Person p2 = Person('Shavkat');
+  print(p1.name);
+  print(p2.name);
+}
+
