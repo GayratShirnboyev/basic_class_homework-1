@@ -5,7 +5,7 @@ Create a "Person" class that has a name("name") and a age("age")
 */
 class Person {
   String name = 'ali';
-  int age = 15;
+  int age = 25;
 }
 void main() {
   Person a=Person();
