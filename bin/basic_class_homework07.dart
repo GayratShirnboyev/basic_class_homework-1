@@ -18,5 +18,4 @@ void main() {
 Person person=Person('Ali', 25);
 print(person.age);
 print(person.name);
-
 }
